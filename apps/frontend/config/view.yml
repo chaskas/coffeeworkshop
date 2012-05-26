@@ -13,24 +13,19 @@ default:
     robots:       index, follow
 
   stylesheets:
-    - main.css
-    - parallax_slider.css
-    - pirobox/style.css
-    - intro_text.css
-    - tiptip.css
-    - Oswald.css
-    - style1.css
+    - nivo-slider/themes/default/default.css
+    - nivo-slider/themes/pascal/pascal.css
+    - nivo-slider/themes/orman/orman.css
+    - styles.css
+    - "http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700"
 
 
   javascripts:
-    - jquery-1.7.1.js
-    - jquery.cslider.js
-    - scripts.js
-    - jquery_ui-1.8.9.min.js
-    - pirobox_extended.js
-    - jquery.galleryview.js
-    - jquery.tabSlideOut.v1.3.js
-    - jquery.lettering.js
+    - jquery-1.7.1.min.js
+    - smooth-scroll.js
+    - jquery.prettyPhoto.js
+    - jquery.validate.js
+    - jquery.nivo.slider.pack.js
 
   has_layout:     true
   layout:         layout
