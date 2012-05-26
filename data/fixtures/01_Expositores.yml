@@ -1,0 +1,35 @@
+# # Populate this file with data to be loaded by your ORM's *:data-load task.
+# # You can create multiple files in this directory (i.e. 010_users.yml,
+# # 020_articles.yml, etc) which will be loaded in alphabetical order.
+# # 
+# # See documentation for your ORM's *:data-load task for more information.
+# 
+# User:
+#   fabien:
+#     username: fabien
+#     password: changeme
+#     name:     Fabien Potencier
+#     email:    fabien.potencier@symfony-project.com
+#   kris:
+#     username: Kris.Wallsmith
+#     password: changeme
+#     name:     Kris Wallsmith
+#     email:    kris.wallsmith@symfony-project.com
+
+Expositores:
+  exp01:
+    nombre: Juan
+    apellido: Perez
+    ocupacion:    Estudiante
+    email:        juan.perez@hola.com
+    fono:          +569 41 5555555
+    titulo:        Como liberar la mente !!
+    descripcion:  Como pensar libremente gracias a mis técnicas ocultas.
+  exp02:
+    nombre: Jose
+    apellido: Perez1
+    ocupacion:    Estudiante
+    email:        juan.perez02@hola.com
+    fono:          +569 41 5555555
+    titulo:        Como liberar la mente !!
+    descripcion:  Como pensar libremente gracias a mis técnicas ocultas.
