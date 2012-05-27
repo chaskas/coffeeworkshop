@@ -15,12 +15,12 @@
     <!-- Main Navigation -->
     <div id="navigation">
       <ul class="main-menu">
-        <li><span><a href="#top">Home</a></span></li>
-        <li><span><a href="#about-me-link">Acerca de...</a></span></li>
+        <li><span><a href="#top">Inicio</a></span></li>
+        <li><span><a href="#method-link">Participa</a></span></li>
         <!-- Class gap: For the gap between the logo and menu -->
-        <li class="gap"><span><a href="#my-work-link">My Work</a></span></li>
-        <li><span><a href="#method-link">Method</a></span></li>
+        <li class="gap"><span><a href="#my-work-link">Calendario</a></span></li>
         <li><span><a href="#blog-link">Blog</a></span></li>
+        <li><span><a href="#about-me-link">Acerca de</a></span></li>
         <li><span><a href="#contact-link">Contáctanos</a></span></li>
       </ul>
     </div>
@@ -60,47 +60,36 @@
 </div>
 <!-- End Welcome Div -->
 
+
+
+
+
 <div class="splitter"><!-- Page Splitter --></div>
 
-<!-- Start About Me Section -->
-<div id="about-me">
+<!-- Start Method Box 4 -->
+<div id="method">
   <div class="inner"> 
-    <!-- Anchor Link for About me Section --> 
-    <span class="about-me" id="about-me-link">&nbsp;</span>
-    <h1 class="dark">Coffee & Workshop</h1>
-    <div class="intro"><img src="images/john-doe.png" alt="Profile Image" width= "95" height="110" />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
-    </div>
-    <!-- End Intro Div -->
-    <h3>My Skills</h3>
-    <div id="skills">
+    <!-- Anchor Link for Method Section --> 
+    <span class="method" id="method-link">&nbsp;</span>
+    <h1 class="dark">Participa!</h1>
+    <h3 class="dark">Design and Development Workflow</h3>
+    <div class="workflow">
       <ul>
-        <li class="html">HTML 5<span>95%</span></li>
-        <li class="css">CSS 3 <span>85%</span></li>
-        <li class="javascript">Javascript/JQuery <span>65%</span></li>
-        <li class="php">PHP & MySql <span>75%</span></li>
-        <li class="photoshop">Photoshop <span>95%</span></li>
-        <li class="dreamweaver">Dreamweaver <span>85%</span></li>
-        <li class="fireworks">Fireworks <span>60%</span></li>
-        <li class="illustrator">Illustrator <span>90%</span></li>
+        <li><img src="images/strategy.png" width="209" height="211" alt="Strategy" />
+          <h2>Strategy</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
+        </li>
+        <li class="last">
+        
+        </li>
       </ul>
     </div>
-    <!-- End Skills -->
-    <div class="infographic"> <img src="images/infographic.png" width="275" height="275" alt="Infograph" /></div>
-    <div class="resume">
-      <h2>View My<br />
-        Online Resume</h2>
-      <p><a href="resume.html" class="red-btn"><span>Resume</span></a></p>
-      <h4>Why Yes!<br />
-        I'm Accepting Freelance Work</h4>
-    </div>
-    <!-- End Resume --> 
+    <!-- End Workflow --> 
 
   </div>
-  <!-- End About me Inner --> 
+  <!-- End Method Inner -->
 </div>
-<!-- End About me -->
-
+<!-- End Method box 4 -->
 <div class="splitter-up"><!-- Page Splitter --></div>
 
 <!-- Start My Work -->
@@ -156,42 +145,6 @@
   <!-- End My Work Inner --> 
 </div>
 <!-- End My Work -->
-
-<div class="splitter"><!-- Page Splitter --></div>
-
-<!-- Start Method Box 4 -->
-<div id="method">
-  <div class="inner"> 
-    <!-- Anchor Link for Method Section --> 
-    <span class="method" id="method-link">&nbsp;</span>
-    <h1 class="dark">Method</h1>
-    <h3 class="dark">Design and Development Workflow</h3>
-    <div class="workflow">
-      <ul>
-        <li> <img src="images/strategy.png" width="209" height="211" alt="Strategy" />
-          <h2>Strategy</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
-        </li>
-        <li><img src="images/planning.png" width="209" height="211" alt="Planning" />
-          <h2>Planning</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
-        </li>
-        <li><img src="images/develop.png" width="209" height="211" alt="Develop" />
-          <h2>Create</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
-        </li>
-        <li class="last"><img src="images/deliver.png" width="209" height="211" alt="Deliver" />
-          <h2>Deliver</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
-        </li>
-      </ul>
-    </div>
-    <!-- End Workflow --> 
-
-  </div>
-  <!-- End Method Inner -->
-</div>
-<!-- End Method box 4 -->
 
 <div class="splitter-up"><!-- Page Splitter --></div>
 <!-- Start Blog -->
@@ -292,6 +245,46 @@
   </div>
 </div>
 <!-- End Blog -->
+<div class="splitter"><!-- Page Splitter --></div>
+
+<!-- Start About Me Section -->
+<div id="about-me">
+  <div class="inner"> 
+    <!-- Anchor Link for About me Section --> 
+    <span class="about-me" id="about-me-link">&nbsp;</span>
+    <h1 class="dark">Coffee & Workshop</h1>
+    <div class="intro"><img src="images/john-doe.png" alt="Profile Image" width= "95" height="110" />
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
+    </div>
+    <!-- End Intro Div -->
+    <h3>My Skills</h3>
+    <div id="skills">
+      <ul>
+        <li class="html">HTML 5<span>95%</span></li>
+        <li class="css">CSS 3 <span>85%</span></li>
+        <li class="javascript">Javascript/JQuery <span>65%</span></li>
+        <li class="php">PHP & MySql <span>75%</span></li>
+        <li class="photoshop">Photoshop <span>95%</span></li>
+        <li class="dreamweaver">Dreamweaver <span>85%</span></li>
+        <li class="fireworks">Fireworks <span>60%</span></li>
+        <li class="illustrator">Illustrator <span>90%</span></li>
+      </ul>
+    </div>
+    <!-- End Skills -->
+    <div class="infographic"> <img src="images/infographic.png" width="275" height="275" alt="Infograph" /></div>
+    <div class="resume">
+      <h2>View My<br />
+        Online Resume</h2>
+      <p><a href="resume.html" class="red-btn"><span>Resume</span></a></p>
+      <h4>Why Yes!<br />
+        I'm Accepting Freelance Work</h4>
+    </div>
+    <!-- End Resume --> 
+
+  </div>
+  <!-- End About me Inner --> 
+</div>
+<!-- End About me -->
 
 <div class="splitter"><!-- Page Splitter --></div>
 <!-- Start Contact me -->

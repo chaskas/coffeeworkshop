@@ -128,7 +128,7 @@ ul.main-menu li {
 }
 
 ul.main-menu li.gap {
-	padding-right: 160px;
+	padding-right: 200px;
 }
 
 #navigation a {
@@ -451,6 +451,7 @@ a.red-btn {
 
 #method .inner .workflow ul li {
 	height: 280px;
+	text-align: center;
 	float: left;
 	margin-right: 47px;
 }
@@ -468,11 +469,11 @@ a.red-btn {
 	padding-bottom: 7px;
 	margin-top: 5px;
 	margin-bottom: 15px;
-	width: 200px;
+	width: 400px;
 }
 
 #method .inner .workflow p {
-	width: 200px;
+	width: 400px;
 	text-align: justify;
 	padding: 0;
 	margin: 0;
