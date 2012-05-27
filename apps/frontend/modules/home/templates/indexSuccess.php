@@ -165,7 +165,7 @@
     <span class="blog" id="blog-link">&nbsp;</span>
     <div class="inner clearfix">
       <div class="posts">
-        <h1 class="light">Blog</h1>
+        <h1 class="dark">Blog</h1>
         <!-- Start Single Blog Post -->
         <div class="single-post clearfix"> <a href="blog-post.html"> <img src="images/theme-launch.png" alt="Theme Launch" width="235" height="203" /> </a>
           <h2><a href="blog-post.html">Blog Post Heading</a></h2>
@@ -263,7 +263,7 @@
   <div class="inner"> 
     <!-- Anchor Link for About me Section --> 
     <span class="about-me" id="about-me-link">&nbsp;</span>
-    <h1 class="dark">Coffee & Workshop</h1>
+    <h1 class="light">Coffee & Workshop</h1>
     <div class="intro"><img src="images/john-doe.png" alt="Profile Image" width= "95" height="110" />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
     </div>

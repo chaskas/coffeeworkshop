@@ -180,7 +180,8 @@ ul.main-menu li.gap {
 /* ===== About Me Section ===== */
 
 #about-me {
-	background: url("../images/texture2.png") #d6d6d6 repeat ;
+	background: url("../images/texture1.png") #231d1e repeat ;
+        color: #fff;
 }
 
 #about-me .inner {
@@ -482,8 +483,8 @@ a.red-btn {
 /* ===== Blog Section ===== */
 
 #blog {
-	background: url("../images/texture1.png") #231d1e repeat;
-	color: #fff;
+	background: url("../images/texture2.png") #d6d6d6 repeat;
+	color: #312b2b;
 }
 
 #blog .inner {
@@ -503,7 +504,7 @@ a.red-btn {
 	float: left;
 	margin: 0;
 	margin-bottom: 60px;
-	border-bottom: 2px dashed #fff;
+	border-bottom: 2px dashed #312B2B;
 	padding-bottom: 40px;
 }
 
@@ -642,7 +643,7 @@ a.red-btn {
 }
 
 #blog .inner .posts .single-post a {
-	color: #fff;
+	color: #312B2B;
 	text-decoration: none;
 }
 
@@ -845,7 +846,7 @@ a.red-btn {
 /* ===== Sidebar section - Recent News ===== */
 
 #blog .inner .sidebar .recent-news a {
-	color: #fff;
+	color: #312B2B;
 	text-decoration: none;
 }
 
