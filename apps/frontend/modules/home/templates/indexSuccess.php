@@ -1,8 +1,8 @@
 <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
+  $(window).load(function() {
+    $('#slider').nivoSlider();
+  });
+</script>
 
 <!-- Start main content --> 
 <span class="welcome" id="top"><!-- Anchor Link for Welcome Section --></span>
@@ -40,12 +40,10 @@
         <div class="slider-wrapper theme-default">
           <div class="ribbon"></div>
           <div id="slider" class="nivoSlider">
-            <img src="css/nivo-slider/images/slide2.png" alt="Happiness" width="969" height="338" />
-            <img src="css/nivo-slider/images/slide3.png" alt="HTML5 Candy" title="HTML5 Candy - Makes Life Sweet" width="969" height="338" />
-            <img src="css/nivo-slider/images/slide4.png" alt="You me and CSS3" data-transition="slideInLeft" width="969" height="338" />
-            <img src="css/nivo-slider/images/slide.png" alt="Shocking Sale" title="#htmlcaption"  width="969" height="338"  />
+            <?php echo image_tag('slider/slide.png', 'width=969, height=150, alt=Happiness'); ?>
+            <?php echo image_tag('slider/slide2.png', 'width=969, height=150, alt=Happiness'); ?>
+            <?php echo image_tag('slider/slide3.png', 'width=969, height=150, alt=Happiness'); ?>
           </div>
-          <div id="htmlcaption" class="nivo-html-caption"><strong>This</strong> is an example of a <em>HTML</em> caption with a link. </div>
         </div>
         <!-- End Htmlcaption --> 
       </div>
@@ -72,15 +70,28 @@
     <!-- Anchor Link for Method Section --> 
     <span class="method" id="method-link">&nbsp;</span>
     <h1 class="dark">Participa!</h1>
-    <h3 class="dark">Design and Development Workflow</h3>
+    <h3 class="dark">¿Deseas ser expositor?</h3>
     <div class="workflow">
       <ul>
         <li><img src="images/strategy.png" width="209" height="211" alt="Strategy" />
-          <h2>Strategy</h2>
+          <h2>Atrévete</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
         </li>
         <li class="last">
-        
+          <div class="expo-form">
+            <form id="expoForm" method="post" action="http://www.kobusswartz.co.za/primento/check.php">
+              <fieldset class="text-fields">
+                <input type="text" name="nombre" id="nombre" onFocus="if(this.value == 'Tu nombre') { this.value = ''; }"  value="Tu nombre" />
+                <input type="text" name="ocupacion" id="ocupacion" onFocus="if(this.value == 'Ocupación') { this.value = ''; }" value="Ocupación" />
+                <input type="text" name="email" id="email" class="required email" onFocus="if(this.value == 'Email') { this.value = ''; }" value="Email" />
+                <input type="text" name="fono" id="fono" onFocus="if(this.value == 'Fono') { this.value = ''; }" value="Fono" />
+                <input type="text" name="titulo" id="titulo" class="required email" onFocus="if(this.value == 'Título del Workshop') { this.value = ''; }" value="Título del Workshop" />
+                <textarea name="descripcion" class="required comment" onFocus="if(this.value == 'Descripción') { this.value = ''; }">Descripción</textarea>
+              </fieldset>
+              <div style="clear:both;padding: 5px;"></div>
+              <input type="submit" name="submit" value="Enviar" class="red-btn" style="margin-right:10px;"/>
+            </form>
+          </div>
         </li>
       </ul>
     </div>
@@ -96,7 +107,7 @@
 <div id="my-work"> 
   <!-- Anchor Link for My Work Section -->
   <div class="inner"> <span class="my-work" id="my-work-link">&nbsp;</span>
-    <h1 class="light">My Work</h1>
+    <h1 class="light">Calendario</h1>
     <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie. </p>
     <!-- Start Gallery -->
     <div class="gallery">
@@ -292,7 +303,7 @@
   <div class="inner"> 
     <!-- Anchor Link for Get in touch Section --> 
     <span class="contact" id="contact-link">&nbsp;</span>
-    <h1 class="dark">Get In Touch</h1>
+    <h1 class="dark">Ponte en contacto con nosotros</h1>
     <h3 class="dark">I would Like to hear from you</h3>
     <div class="contact-form">
       <p>Use the form below to contact me for freelance work or feel free to just say Hi or comment on my portfolio.
@@ -331,7 +342,7 @@
     <!-- End details --> 
     <!-- Start Google Map -->
     <div class="map">
-      <iframe scrolling="no" frameborder="0" src="http://maps.google.co.za/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=301+Glenwood+Road,+Pretoria,+Gauteng&amp;aq=0&amp;oq=301+glenwood+&amp;sll=-28.45,24.7&amp;sspn=34.693335,67.631836&amp;t=v&amp;ie=UTF8&amp;hq=&amp;hnear=301+Glenwood+Rd,+Faerie+Glen,+Pretoria,+Gauteng+0081&amp;z=14&amp;ll=-25.780149,28.291638&amp;output=embed"></iframe>
+      <iframe scrolling="no" frameborder="0" src="https://maps.google.cl/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Edmundo+Larenas+215,+Concepci%C3%B3n&amp;aq=0&amp;oq=Edmundo+Larenas+215&amp;sll=-25.780149,28.291638&amp;sspn=0.013719,0.022724&amp;ie=UTF8&amp;hq=&amp;hnear=Edmundo+Larenas+215,+Concepci%C3%B3n,+Provincia+Concepci%C3%B3n,+Biob%C3%ADo&amp;t=m&amp;z=14&amp;ll=-36.83019,-73.037356&amp;output=embed"></iframe>
     </div>
     <!-- End map -->
     <div class="go-up"> <span><a href="#top"><img src="images/going-up.png" width="110" height="110" alt="Going up ?"/></a></span> </div>

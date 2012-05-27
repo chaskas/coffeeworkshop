@@ -887,6 +887,48 @@ a.red-btn {
 
 /* ===== Contact Section - Contact Form ===== */
 
+#method .inner .expo-form {
+	margin-top: -80px;
+        text-align: right;
+}
+
+#method .inner .expo-form p {
+	color: #312b2b;
+}
+
+#method .inner .expo-form fieldset.text-fields {
+	float: left;
+	width: 450px;
+	margin-right: 10px;
+}
+
+#method .inner .expo-form fieldset input {
+	width: 370px;
+	padding: 15px 0 15px 10px;
+	border: none;
+	margin-bottom: 10px;
+	color: #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#method .inner .expo-form fieldset input:focus {
+	color: #333;
+}
+#method .inner .expo-form fieldset textarea {
+	width: 350px;
+	height: 130px;
+	border: none;
+	padding: 15px;
+	color: #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* ===== Contact Section - Contact Form ===== */
+
 #contact .inner .contact-form {
 	margin-top: 30px;
 }
