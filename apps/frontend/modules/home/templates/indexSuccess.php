@@ -75,7 +75,7 @@
       <ul>
         <li><img src="images/strategy.png" width="209" height="211" alt="Strategy" />
           <h2>Atrévete</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacus purus, at tincidunt nisi. Integer felisito arcu, sagittis ac fermentum uturia, pharetra nec liberotia. Utia crasionia pretium tempor tellus, vulputate congue nulla venenatis eget. Phasellus nulla lagulla, amet bibendum id egestas id, mattis in tellus.</p>
+          <p>Buscamos a jóvenes emprendedores con ganas de compartir, enseñar y generar redes. Esta es tu oportunidad para motivar a estudiantes a desarrollar ideas innovadoras y emprender juntos en nuevos y creativos proyectos. Completa el siguiente formulario y nos pondremos en contacto.</p>
         </li>
         <li class="last">
           <div class="expo-form">
