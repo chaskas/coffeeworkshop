@@ -19,7 +19,7 @@
         <li><span><a href="#participa">Participa</a></span></li>
         <!-- Class gap: For the gap between the logo and menu -->
         <li class="gap"><span><a href="#calendario">Calendario</a></span></li>
-        <li><span><a href="#blog">Blog</a></span></li>
+        <li><span><a href="#blog-link">Blog</a></span></li>
         <li><span><a href="#acerca-de">Acerca de</a></span></li>
         <li><span><a href="#contactanos">Contáctanos</a></span></li>
       </ul>
@@ -36,7 +36,6 @@
     <img src="images/label.png" width="987" height="343" alt="Portfolio of John Doe" />
     <div id="feature" class="clearfix">
       <div class="inner"> 
-        <!-- Start Nivo Slider -->
         <div class="slider-wrapper theme-default">
           <div class="ribbon"></div>
           <div id="slider" class="nivoSlider">
@@ -45,22 +44,10 @@
             <?php echo image_tag('slider/slide3.png', 'width=969, height=150, alt=Happiness'); ?>
           </div>
         </div>
-        <!-- End Htmlcaption --> 
       </div>
-      <!-- End Slider --> 
-
     </div>
-    <!-- End Feature Div --> 
-
   </div>
-  <!-- End Inner Div --> 
-
 </div>
-<!-- End Welcome Div -->
-
-
-
-
 
 <div class="splitter"><!-- Page Splitter --></div>
 
@@ -150,12 +137,12 @@
 </div>
 <!-- End My Work -->
 
-<div class="splitter-up"><!-- Page Splitter --></div>
+<div class="splitter"><!-- Page Splitter --></div>
 <!-- Start Blog -->
 <div id="blog">
   <div class="inner"> 
     <!-- Anchor Link for Blog Section --> 
-<!--    <span class="blog" id="blog">&nbsp;</span>-->
+    <span class="blog" id="blog-link">&nbsp;</span>
     <div class="inner clearfix">
       <div class="posts">
         <h1 class="dark">Blog</h1>
@@ -252,7 +239,7 @@
   </div>
 </div>
 <!-- End Blog -->
-<div class="splitter"><!-- Page Splitter --></div>
+<div class="splitter-up"><!-- Page Splitter --></div>
 
 <!-- Start About Me Section -->
 <div id="about-me">
