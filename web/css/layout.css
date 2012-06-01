@@ -427,6 +427,7 @@ a.red-btn {
 	float: left;
 	border: 3px solid #fff;
 	margin: 7px;
+        padding: 0 10px 10px 10px;
 	-webkit-transition: ima 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
