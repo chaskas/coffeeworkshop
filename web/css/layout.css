@@ -375,7 +375,7 @@ a.red-btn {
 }
 
 #my-work .inner {
- 	position: : relative;
+ 	position: relative;
 	margin: 0 auto;
 	width: 1000px;
 	height: 907px;
@@ -387,8 +387,42 @@ a.red-btn {
 	padding: 0;
 	margin-top: 20px;
 }
+#my-work .gallery ul li .left{
+	float: left;
+	margin: 7px;
+        color: #fff;
+}
+#my-work .gallery ul li .foto{
+	background: #fff;
+/*	float: left;*/
+	border: 3px solid #fff;
+	margin: 0 7px 7px 7px;
+	-webkit-transition: ima 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#my-work .gallery ul li .ponentes{
+	float: left;
+	margin: 7px;
+        color: #fff;
+        text-align: right;
+        width: 170px;
+}
+#my-work .gallery ul li .ponentes ul{
+  margin: 0;
+}
+#my-work .gallery ul li .ponentes h6{
+  margin: 0;
+  text-align: right;
+}
 
-#my-work .gallery ul li {
+#my-work .gallery ul li .info{
+        width: 750px;
 	background: #fff;
 	float: left;
 	border: 3px solid #fff;
@@ -401,15 +435,24 @@ a.red-btn {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+        margin-bottom: 30px;
+}
+#my-work .gallery ul li .info h2 {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#my-work .gallery ul li .info p {
+  color: #312B2B;
 }
 
-#my-work .gallery ul li:hover {
+/*#my-work .gallery ul li:hover {
 	background: url("../images/view.png") no-repeat #fff;
 	float: left;
 	border: 3px solid #fff;
 	margin: 7px;
 	opacity: 1;
-}
+}*/
 
 #my-work .gallery ul li span {
 	opacity: 1;
@@ -418,15 +461,21 @@ a.red-btn {
 	transition: all 0.50s ease-in-out;
 }
 
-#my-work .gallery ul li span:hover {
+/*#my-work .gallery ul li span:hover {
 	opacity: 0.2;
-}
+}*/
 
 #my-work .gallery ul li p {
-	background: url("../images/camera.png") right no-repeat;
 	padding: 5px;
 	margin: 0;
 	color: #999;
+}
+#my-work .gallery ul li h3 {
+	padding: 5px;
+	margin: 0;
+        text-align: center;
+        font-size: 20px;
+        color: #251f1f;
 }
 
 /* ===== Method Section ===== */

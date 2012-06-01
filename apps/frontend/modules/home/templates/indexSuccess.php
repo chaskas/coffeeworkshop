@@ -16,12 +16,12 @@
     <div id="navigation">
       <ul class="main-menu">
         <li><span><a href="#top">Inicio</a></span></li>
-        <li><span><a href="#method-link">Participa</a></span></li>
+        <li><span><a href="#participa">Participa</a></span></li>
         <!-- Class gap: For the gap between the logo and menu -->
-        <li class="gap"><span><a href="#my-work-link">Calendario</a></span></li>
-        <li><span><a href="#blog-link">Blog</a></span></li>
-        <li><span><a href="#about-me-link">Acerca de</a></span></li>
-        <li><span><a href="#contact-link">Contáctanos</a></span></li>
+        <li class="gap"><span><a href="#calendario">Calendario</a></span></li>
+        <li><span><a href="#blog">Blog</a></span></li>
+        <li><span><a href="#acerca-de">Acerca de</a></span></li>
+        <li><span><a href="#contactanos">Contáctanos</a></span></li>
       </ul>
     </div>
     <!-- End Navigation --> 
@@ -68,7 +68,7 @@
 <div id="method">
   <div class="inner"> 
     <!-- Anchor Link for Method Section --> 
-    <span class="method" id="method-link">&nbsp;</span>
+    <span class="method" id="participa">&nbsp;</span>
     <h1 class="dark">Participa!</h1>
     <h3 class="dark">¿Deseas ser expositor?</h3>
     <div class="workflow">
@@ -106,47 +106,40 @@
 <!-- Start My Work -->
 <div id="my-work"> 
   <!-- Anchor Link for My Work Section -->
-  <div class="inner"> <span class="my-work" id="my-work-link">&nbsp;</span>
+  <div class="inner"> <span class="my-work" id="calendario">&nbsp;</span>
     <h1 class="light">Calendario</h1>
-    <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie. </p>
+<!--    <p class="light"></p>-->
     <!-- Start Gallery -->
     <div class="gallery">
       <ul>
-        <li><span><a href="images/gallery/gallery01.png" rel="prettyPhoto" title="Primento Portfolio"><img src="images/gallery/gallery01_small.png" width="230" height="180" alt="Primento Portfolio" /></a></span>
-          <p>Primento Portfolio</p>
-        </li>
-        <li><span><a href="images/gallery/gallery02.png" rel="prettyPhoto" title="HTML5"><img src="images/gallery/gallery02_small.png" width="230" height="180" alt="HTML5" /></a></span>
-          <p>HTML5</p>
-        </li>
-        <li><span><a href="images/gallery/gallery03.png" rel="prettyPhoto" title="JQuery"><img src="images/gallery/gallery03_small.png" width="230" height="180" alt="JQuery" /></a></span>
-          <p>JQuery</p>
-        </li>
-        <li><span><a href="images/gallery/gallery04.png" rel="prettyPhoto" title="Awesome"><img src="images/gallery/gallery04_small.png" width="230" height="180" alt="Awesome" /></a></span>
-          <p>Awesome</p>
-        </li>
-        <li><span><a href="images/gallery/gallery05.png" rel="prettyPhoto" title="Primento Dark Raindbow"><img src="images/gallery/gallery05_small.png" width="230" height="180" alt="Primento Dark Raindbow" /></a></span>
-          <p>Primento Dark Raindbow</p>
-        </li>
-        <li><span><a href="images/gallery/gallery06.png" rel="prettyPhoto" title="Primento"><img src="images/gallery/gallery06_small.png" width="230" height="180" alt="Primento" /></a></span>
-          <p>Primento</p>
-        </li>
-        <li><span><a href="images/gallery/gallery07.png" rel="prettyPhoto" title="Corporate Moose"><img src="images/gallery/gallery07_small.png" width="230" height="180" alt="Corporate Moose" /></a></span>
-          <p>Corporate Moose</p>
-        </li>
-        <li><span><a href="images/gallery/gallery08.png" rel="prettyPhoto" title="PHP"><img src="images/gallery/gallery08_small.png" width="230" height="180" alt="PHP" /></a></span>
-          <p>PHP</p>
-        </li>
-        <li><span><a href="images/gallery/gallery09.png" rel="prettyPhoto" title="Infinity"><img src="images/gallery/gallery09_small.png" width="230" height="180" alt="Infinity" /></a></span>
-          <p>Infinity</p>
-        </li>
-        <li><span><a href="images/gallery/gallery10.png" rel="prettyPhoto" title="I Like Stuff"><img src="images/gallery/gallery10_small.png" width="230" height="180" alt="I Like Stuff" /></a></span>
-          <p>I Like Stuff</p>
-        </li>
-        <li><span><a href="images/gallery/gallery11.png" rel="prettyPhoto" title="Hippity Hip"><img src="images/gallery/gallery11_small.png" width="230" height="180" alt="Hippity Hip" /></a></span>
-          <p>Hippity Hip</p>
-        </li>
-        <li><span><a href="images/gallery/gallery12.png" rel="prettyPhoto" title="Tv is Fake"><img src="images/gallery/gallery12_small.png" width="230" height="180" alt="Gallery Image" /></a></span>
-          <p>Tv is Fake</p>
+        <li>
+          <div class="left">
+          <div class="foto">
+            <h3>Jueves 7 de Julio</h3>
+          <span>
+            <img src="images/gallery/gallery01_small.png" width="173" height="135" alt="titulo" />
+          </span>
+          </div>
+          <div class="ponentes">
+            <ul>
+              <li>
+                <h6>José Fuentes</h6>
+                <?php echo image_tag('icons/mail.png'); ?>
+                <?php echo image_tag('icons/facebook.png'); ?>
+                <?php echo image_tag('icons/twitter.png'); ?>
+              </li>
+              <li>
+                <h6>Erich Grüttner</h6>
+              </li>
+            </ul>
+          </div>
+            </div>
+          <div class="info">
+            <h2>Investigación o Emprendimiento</h2>
+            <p>Coffee & Workshop te invita a conocer dos experiencias que muchas veces se contraponen, y es necesario elegir entre una u otra, la investigación y el emprendimiento.</p>
+            <p>El primer expositor será José Fuentes, alumno de Doctorado del Departamento, quién nos contará sobre su experiencia estudiando tanto en el magíster como en el doctorado de Ciencias de la Computación en la Universidad de Concepción, sus proyectos concretados y los fallidos, dificultades que se han presentando en el transcurso de sus estudios, y cuáles han sido los pro y sus contra en su decisión de dedicarse al área de investigación.</p>
+            <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa Tutinova ( <a href="http://www.tutinova.com/">http://www.tutinova.com/</a> ), que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
+          </div>
         </li>
       </ul>
     </div>
@@ -162,12 +155,15 @@
 <div id="blog">
   <div class="inner"> 
     <!-- Anchor Link for Blog Section --> 
-    <span class="blog" id="blog-link">&nbsp;</span>
+<!--    <span class="blog" id="blog">&nbsp;</span>-->
     <div class="inner clearfix">
       <div class="posts">
         <h1 class="dark">Blog</h1>
         <!-- Start Single Blog Post -->
-        <div class="single-post clearfix"> <a href="blog-post.html"> <img src="images/theme-launch.png" alt="Theme Launch" width="235" height="203" /> </a>
+        <div class="single-post clearfix"> 
+          <a href="blog-post.html"> 
+            <img src="images/theme-launch.png" alt="Theme Launch" width="235" height="203" /> 
+          </a>
           <h2><a href="blog-post.html">Blog Post Heading</a></h2>
           <p class="post-info">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
           <p class="date">12 Apr</p>
@@ -262,7 +258,7 @@
 <div id="about-me">
   <div class="inner"> 
     <!-- Anchor Link for About me Section --> 
-    <span class="about-me" id="about-me-link">&nbsp;</span>
+    <span class="about-me" id="acerca-de">&nbsp;</span>
     <h1 class="light">Coffee & Workshop</h1>
     <div class="intro"><img src="images/john-doe.png" alt="Profile Image" width= "95" height="110" />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
@@ -302,7 +298,7 @@
 <div id="contact" class="clearfix">
   <div class="inner"> 
     <!-- Anchor Link for Get in touch Section --> 
-    <span class="contact" id="contact-link">&nbsp;</span>
+    <span class="contact" id="contactanos">&nbsp;</span>
     <h1 class="dark">Ponte en contacto con nosotros</h1>
     <h3 class="dark">I would Like to hear from you</h3>
     <div class="contact-form">
