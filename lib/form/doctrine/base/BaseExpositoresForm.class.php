@@ -17,7 +17,6 @@ abstract class BaseExpositoresForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'          => new sfWidgetFormInputHidden(),
       'nombre'      => new sfWidgetFormInputText(),
-      'apellido'    => new sfWidgetFormInputText(),
       'ocupacion'   => new sfWidgetFormInputText(),
       'email'       => new sfWidgetFormInputText(),
       'fono'        => new sfWidgetFormInputText(),
@@ -30,7 +29,6 @@ abstract class BaseExpositoresForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'nombre'      => new sfValidatorPass(),
-      'apellido'    => new sfValidatorPass(),
       'ocupacion'   => new sfValidatorPass(),
       'email'       => new sfValidatorPass(),
       'fono'        => new sfValidatorPass(),

@@ -14,9 +14,9 @@ class ExpositoresForm extends BaseExpositoresForm
   {
 
     $this->widgetSchema['descripcion'] = new sfWidgetFormTextarea();
+    $this->widgetSchema['descripcion']->setDefault('Descripci&oacute;n');
 
     $this->validatorSchema['nombre'] = new sfValidatorString(array('required'=>true));
-    $this->validatorSchema['apellido'] = new sfValidatorString(array('required'=>true));
     $this->validatorSchema['ocupacion'] = new sfValidatorString(array('required'=>true));
     $this->validatorSchema['titulo'] = new sfValidatorString(array('required'=>true));
     $this->validatorSchema['descripcion'] = new sfValidatorString(array('required'=>true));

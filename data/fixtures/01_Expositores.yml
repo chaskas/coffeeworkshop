@@ -18,16 +18,14 @@
 
 Expositores:
   exp01:
-    nombre: Juan
-    apellido: Perez
+    nombre: Juan Perez
     ocupacion:    Estudiante
     email:        juan.perez@hola.com
     fono:          +569 41 5555555
     titulo:        Como liberar la mente !!
     descripcion:  Como pensar libremente gracias a mis técnicas ocultas.
   exp02:
-    nombre: Jose
-    apellido: Perez1
+    nombre: Jose Perez1
     ocupacion:    Estudiante
     email:        juan.perez02@hola.com
     fono:          +569 41 5555555

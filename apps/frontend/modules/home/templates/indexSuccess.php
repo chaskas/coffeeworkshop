@@ -9,7 +9,9 @@
 <!-- Start Header -->
 <div id="header">
   <div class="inner">
-    <div class="logo"><img src="images/logo.png" width="112" height="172" alt="Header Logo" /></div>
+    <div class="logo">
+      <?php echo image_tag('logo.png','width=112,height=172,alt=Coffe & Workshop Logo'); ?>
+    </div>
     <!-- End Logo --> 
 
     <!-- Main Navigation -->
@@ -33,7 +35,7 @@
 <!-- Start Welcome Section -->
 <div id="welcome">
   <div class="inner">
-    <img src="images/label.png" width="987" height="343" alt="Portfolio of John Doe" />
+    <?php echo image_tag('label.png','width=987,height=343,alt=Coffe & Workshop Logo'); ?>
     <div id="feature" class="clearfix">
       <div class="inner"> 
         <div class="slider-wrapper theme-default">
@@ -60,22 +62,25 @@
     <h3 class="dark">¿Deseas ser expositor?</h3>
     <div class="workflow">
       <ul>
-        <li><img src="images/strategy.png" width="209" height="211" alt="Strategy" />
+        <li>
+          <?php echo image_tag('strategy.png','width=209,height=211,alt=Coffe & Workshop'); ?>
           <h2>Atrévete</h2>
           <p>Buscamos a jóvenes emprendedores con ganas de compartir, enseñar y generar redes. Esta es tu oportunidad para motivar a estudiantes a desarrollar ideas innovadoras y emprender juntos en nuevos y creativos proyectos. Completa el siguiente formulario y nos pondremos en contacto.</p>
         </li>
         <li class="last">
           <div class="expo-form">
-            <form id="expoForm" method="post" action="http://www.kobusswartz.co.za/primento/check.php">
+            <form id="expoForm" method="post" action="<?php echo url_for('home/create') ?>">
               <fieldset class="text-fields">
-                <input type="text" name="nombre" id="nombre" onFocus="if(this.value == 'Tu nombre') { this.value = ''; }"  value="Tu nombre" />
-                <input type="text" name="ocupacion" id="ocupacion" onFocus="if(this.value == 'Ocupación') { this.value = ''; }" value="Ocupación" />
-                <input type="text" name="email" id="email" class="required email" onFocus="if(this.value == 'Email') { this.value = ''; }" value="Email" />
-                <input type="text" name="fono" id="fono" onFocus="if(this.value == 'Fono') { this.value = ''; }" value="Fono" />
-                <input type="text" name="titulo" id="titulo" class="required email" onFocus="if(this.value == 'Título del Workshop') { this.value = ''; }" value="Título del Workshop" />
-                <textarea name="descripcion" class="required comment" onFocus="if(this.value == 'Descripción') { this.value = ''; }">Descripción</textarea>
+                <?php echo $expoForm['nombre']->render(array('onfocus'=>'if(this.value == "Nombre") { this.value = ""; }','value'=>'Nombre')); ?>
+                <?php echo $expoForm['ocupacion']->render(array('onfocus'=>'if(this.value == "Ocupación") { this.value = ""; }','value'=>'Ocupación')); ?>
+                <?php echo $expoForm['email']->render(array('onfocus'=>'if(this.value == "Email") { this.value = ""; }','value'=>'Email')); ?>
+                <?php echo $expoForm['fono']->render(array('onfocus'=>'if(this.value == "Fono") { this.value = ""; }','value'=>'Fono')); ?>
+                <?php echo $expoForm['titulo']->render(array('onfocus'=>'if(this.value == "Título de la Presentación") { this.value = ""; }','value'=>'Título de la Presentación')); ?>
+                <?php echo $expoForm['descripcion']->render(array('onfocus'=>'if(this.value == "Descripción") { this.value = ""; }','class'=>'required comment')); ?>
+                <?php echo $expoForm->renderHiddenFields(); ?>
               </fieldset>
               <div style="clear:both;padding: 5px;"></div>
+
               <input type="submit" name="submit" value="Enviar" class="red-btn" style="margin-right:10px;"/>
             </form>
           </div>

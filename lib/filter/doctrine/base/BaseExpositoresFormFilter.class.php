@@ -14,7 +14,6 @@ abstract class BaseExpositoresFormFilter extends BaseFormFilterDoctrine
   {
     $this->setWidgets(array(
       'nombre'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'apellido'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'ocupacion'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'email'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'fono'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
@@ -26,7 +25,6 @@ abstract class BaseExpositoresFormFilter extends BaseFormFilterDoctrine
 
     $this->setValidators(array(
       'nombre'      => new sfValidatorPass(array('required' => false)),
-      'apellido'    => new sfValidatorPass(array('required' => false)),
       'ocupacion'   => new sfValidatorPass(array('required' => false)),
       'email'       => new sfValidatorPass(array('required' => false)),
       'fono'        => new sfValidatorPass(array('required' => false)),
@@ -55,7 +53,6 @@ abstract class BaseExpositoresFormFilter extends BaseFormFilterDoctrine
     return array(
       'id'          => 'Number',
       'nombre'      => 'Text',
-      'apellido'    => 'Text',
       'ocupacion'   => 'Text',
       'email'       => 'Text',
       'fono'        => 'Text',

@@ -3,7 +3,6 @@ Expositores:
     Timestampable: ~
   columns:
     nombre:       { type: text, notnull: true }
-    apellido:     { type: text, notnull: true }
     ocupacion:    { type: text, notnull: true }
     email:        { type: varchar(30), notnull: true , unique: true }
     fono:         { type: text, notnull: true }

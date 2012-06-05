@@ -19,4 +19,24 @@ class homeActions extends sfActions
   {
     $this->expoForm = new ExpositoresForm();
   }
+  public function executeCreate(sfWebRequest $request)
+  {
+    $this->forward404Unless($request->isMethod(sfRequest::POST));
+
+    $this->expoForm = new ExpositoresForm();
+
+    $this->processForm($request, $this->expoForm);
+
+    $this->setTemplate('index');
+  }
+  protected function processForm(sfWebRequest $request, sfForm $form)
+  {
+    $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
+    if ($form->isValid())
+    {
+      $expositores = $form->save();
+
+      //$this->redirect('expositor/edit?id='.$expositores->getId());
+    }
+  }
 }
