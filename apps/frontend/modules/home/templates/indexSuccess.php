@@ -68,21 +68,8 @@
           <p>Buscamos a jóvenes emprendedores con ganas de compartir, enseñar y generar redes. Esta es tu oportunidad para motivar a estudiantes a desarrollar ideas innovadoras y emprender juntos en nuevos y creativos proyectos. Completa el siguiente formulario y nos pondremos en contacto.</p>
         </li>
         <li class="last">
-          <div class="expo-form">
-            <form id="expoForm" method="post" action="<?php echo url_for('home/create') ?>">
-              <fieldset class="text-fields">
-                <?php echo $expoForm['nombre']->render(array('onfocus'=>'if(this.value == "Nombre") { this.value = ""; }','value'=>'Nombre')); ?>
-                <?php echo $expoForm['ocupacion']->render(array('onfocus'=>'if(this.value == "Ocupación") { this.value = ""; }','value'=>'Ocupación')); ?>
-                <?php echo $expoForm['email']->render(array('onfocus'=>'if(this.value == "Email") { this.value = ""; }','value'=>'Email')); ?>
-                <?php echo $expoForm['fono']->render(array('onfocus'=>'if(this.value == "Fono") { this.value = ""; }','value'=>'Fono')); ?>
-                <?php echo $expoForm['titulo']->render(array('onfocus'=>'if(this.value == "Título de la Presentación") { this.value = ""; }','value'=>'Título de la Presentación')); ?>
-                <?php echo $expoForm['descripcion']->render(array('onfocus'=>'if(this.value == "Descripción") { this.value = ""; }','class'=>'required comment')); ?>
-                <?php echo $expoForm->renderHiddenFields(); ?>
-              </fieldset>
-              <div style="clear:both;padding: 5px;"></div>
-
-              <input type="submit" name="submit" value="Enviar" class="red-btn" style="margin-right:10px;"/>
-            </form>
+          <div class="expo-form" id="expoFormDiv">
+            <?php include_component('home','addExpositor') ?>
           </div>
         </li>
       </ul>
@@ -109,7 +96,7 @@
           <div class="foto">
             <h3>Jueves 7 de Julio</h3>
           <span>
-            <img src="images/gallery/gallery01_small.png" width="173" height="135" alt="titulo" />
+            <?php echo image_tag('gallery/gallery01_small.png','width=173,height=135'); ?>
           </span>
           </div>
           <div class="ponentes">
@@ -154,7 +141,7 @@
         <!-- Start Single Blog Post -->
         <div class="single-post clearfix"> 
           <a href="blog-post.html"> 
-            <img src="images/theme-launch.png" alt="Theme Launch" width="235" height="203" /> 
+            <?php echo image_tag('theme-launch.png','width=235,height=203, alt=Theme Launch'); ?>
           </a>
           <h2><a href="blog-post.html">Blog Post Heading</a></h2>
           <p class="post-info">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
@@ -168,7 +155,9 @@
           <p><a href="blog-post.html" class="text-link"><span>Continue reading</span></a></p>
         </div>
         <!-- Start Single Blog Post -->
-        <div class="single-post clearfix"> <a href="blog-post.html"> <img src="images/case-study.png" alt="Theme Launch" width="235" height="203" /> </a>
+        <div class="single-post clearfix"> <a href="blog-post.html"> 
+            <?php echo image_tag('case-study.png','width=235,height=203, alt=Theme Launch'); ?>
+          </a>
           <h2><a href="blog-post.html">Blog Post Heading</a></h2>
           <p class="post-info">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
           <p class="date">13 Apr</p>
@@ -252,7 +241,9 @@
     <!-- Anchor Link for About me Section --> 
     <span class="about-me" id="acerca-de">&nbsp;</span>
     <h1 class="light">Coffee & Workshop</h1>
-    <div class="intro"><img src="images/john-doe.png" alt="Profile Image" width= "95" height="110" />
+    <div class="intro">
+      <?php echo image_tag('john-doe.png','width=95,height=110'); ?>
+      case-study.png
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
     </div>
     <!-- End Intro Div -->
@@ -270,7 +261,9 @@
       </ul>
     </div>
     <!-- End Skills -->
-    <div class="infographic"> <img src="images/infographic.png" width="275" height="275" alt="Infograph" /></div>
+    <div class="infographic"> 
+      <?php echo image_tag('infographic.png','width=275,height=275,alt=Infograph'); ?>
+    </div>
     <div class="resume">
       <h2>View My<br />
         Online Resume</h2>
@@ -318,11 +311,11 @@
       <div class="social">
         <h3 class="dark">Get Social</h3>
         <ul>
-          <li><a href="#"><img src="images/facebook.png" alt="Facebook" width="70" height="70" /></a></li>
-          <li><a href="#"><img src="images/twitter.png" alt="Twitter" width="70" height="70" /></a></li>
-          <li><a href="#"><img src="images/pinterest.png" alt="Pinterest" width="70" height="70" /></a></li>
-          <li><a href="#"><img src="images/vimeo.png" alt="Vimeo" width="70" height="70" /></a></li>
-          <li><a href="#"><img src="images/skype.png" alt="Skype" width="70" height="70" /></a></li>
+          <li><a href="#"><?php echo image_tag('facebook.png','width=70,height=70,alt=Facebook'); ?></a></li>
+          <li><a href="#"><?php echo image_tag('twitter.png','width=70,height=70,alt=Twitter'); ?></a></li>
+          <li><a href="#"><?php echo image_tag('pinterest.png','width=70,height=70,alt=Pinterest'); ?></a></li>
+          <li><a href="#"><?php echo image_tag('vimeo.png','width=70,height=70,alt=Vimeo'); ?></a></li>
+          <li><a href="#"><?php echo image_tag('skype.png','width=70,height=70,alt=Skype'); ?></a></li>
         </ul>
       </div>
       <!-- End social --> 
@@ -333,7 +326,9 @@
       <iframe scrolling="no" frameborder="0" src="https://maps.google.cl/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Edmundo+Larenas+215,+Concepci%C3%B3n&amp;aq=0&amp;oq=Edmundo+Larenas+215&amp;sll=-25.780149,28.291638&amp;sspn=0.013719,0.022724&amp;ie=UTF8&amp;hq=&amp;hnear=Edmundo+Larenas+215,+Concepci%C3%B3n,+Provincia+Concepci%C3%B3n,+Biob%C3%ADo&amp;t=m&amp;z=14&amp;ll=-36.83019,-73.037356&amp;output=embed"></iframe>
     </div>
     <!-- End map -->
-    <div class="go-up"> <span><a href="#top"><img src="images/going-up.png" width="110" height="110" alt="Going up ?"/></a></span> </div>
+    <div class="go-up"> <span><a href="#top">
+          <?php echo image_tag('going-up.png','width=110,height=110,alt=Going up ?'); ?>
+        </a></span> </div>
     <!-- End go-up --> 
   </div>
   <!-- End inner --> 
@@ -343,7 +338,9 @@
 <!-- Start Footer -->
 <div id="footer" class="clearfix">
   <div class="inner">
-    <div class="footer-logo"><a href="#"><img src="images/footer-logo.png" alt="Footer Logo" width="200" height="75" /></a> </div>
+    <div class="footer-logo"><a href="#">
+        <?php echo image_tag('footer-logo.png','width=200,height=75,alt=Footer'); ?>
+      </a> </div>
     <!-- End footer-logo -->
 
     <div class="footer-links">

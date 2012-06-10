@@ -14,6 +14,12 @@ class ExpositoresForm extends BaseExpositoresForm
   {
 
     $this->widgetSchema['descripcion'] = new sfWidgetFormTextarea();
+    
+    $this->widgetSchema['nombre']->setDefault('Nombre');
+    $this->widgetSchema['ocupacion']->setDefault('Ocupaci&oacute;n');
+    $this->widgetSchema['email']->setDefault('Email');
+    $this->widgetSchema['fono']->setDefault('Fono');
+    $this->widgetSchema['titulo']->setDefault('T&iacute;tulo de la Presentaci&oacute;n');
     $this->widgetSchema['descripcion']->setDefault('Descripci&oacute;n');
 
     $this->validatorSchema['nombre'] = new sfValidatorString(array('required'=>true));
@@ -21,6 +27,8 @@ class ExpositoresForm extends BaseExpositoresForm
     $this->validatorSchema['titulo'] = new sfValidatorString(array('required'=>true));
     $this->validatorSchema['descripcion'] = new sfValidatorString(array('required'=>true));
     $this->validatorSchema['email'] = new sfValidatorEmail(array('required'=>true));
+    
+    $this->widgetSchema->setFormFormatterName('span');
 
     unset($this['created_at'], $this['updated_at']);
   }

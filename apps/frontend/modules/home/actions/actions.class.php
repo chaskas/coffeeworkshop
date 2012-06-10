@@ -17,17 +17,17 @@ class homeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->expoForm = new ExpositoresForm();
+    
   }
-  public function executeCreate(sfWebRequest $request)
+  public function executeAddExpositor(sfWebRequest $request)
   {
     $this->forward404Unless($request->isMethod(sfRequest::POST));
 
     $this->expoForm = new ExpositoresForm();
 
     $this->processForm($request, $this->expoForm);
-
-    $this->setTemplate('index');
+    
+    return sfView::NONE;
   }
   protected function processForm(sfWebRequest $request, sfForm $form)
   {
@@ -35,8 +35,9 @@ class homeActions extends sfActions
     if ($form->isValid())
     {
       $expositores = $form->save();
-
-      //$this->redirect('expositor/edit?id='.$expositores->getId());
+      $this->getResponse()->setContent('<center style="margin-left: 50px;"><br/><br/><br/><br/><br/><h3>Muchas Gracias</h3><h4>Nos pondremos en contacto con usted...</h4></center>');
+    } else {
+      return $this->renderComponent('home','addExpositor',array('expoForm' => $form));
     }
   }
 }

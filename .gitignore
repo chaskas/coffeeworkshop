@@ -3,3 +3,5 @@ log/*
 web/uploads/*
 config/databases.yml
 /nbproject/private/
+/plugins/.registry/
+/plugins/.channels/

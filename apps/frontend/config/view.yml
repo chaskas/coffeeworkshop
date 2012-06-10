@@ -24,7 +24,7 @@ default:
     - jquery-1.7.1.min.js
     - smooth-scroll.js
     - jquery.prettyPhoto.js
-    - jquery.validate.js
+#    - jquery.validate.js
     - jquery.nivo.slider.pack.js
 
   has_layout:     true
