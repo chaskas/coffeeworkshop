@@ -96,7 +96,7 @@
           <div class="foto">
             <h3>Jueves 7 de Julio</h3>
           <span>
-            <?php echo image_tag('gallery/gallery01_small.png','width=173,height=135'); ?>
+            <?php echo image_tag('afiche01.png','width=173,height=173'); ?>
           </span>
           </div>
           <div class="ponentes">
@@ -109,6 +109,9 @@
               </li>
               <li>
                 <h6>Erich Grüttner</h6>
+                <?php echo image_tag('icons/mail.png'); ?>
+                <?php echo image_tag('icons/facebook.png'); ?>
+                <?php echo image_tag('icons/twitter.png'); ?>
               </li>
             </ul>
           </div>
