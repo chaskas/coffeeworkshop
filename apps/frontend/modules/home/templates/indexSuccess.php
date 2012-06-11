@@ -242,9 +242,8 @@
     <span class="about-me" id="acerca-de">&nbsp;</span>
     <h1 class="light">Coffee & Workshop</h1>
     <div class="intro">
-      <?php echo image_tag('john-doe.png','width=95,height=110'); ?>
-      case-study.png
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet, risus tortor varius eros, in dignissim nunc ipsum a nulla. Sed dui erat, varius ac accumsan sed, rhoncus non augue. Aliquam non orci quis magna gravida interdum nec in libero. Nam luctus tempor dui. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet tempus idi in duisy. Pellentesque at quamie id dui porta aliquam eget ut tortor. Integer ac cursus risus. Aliquam justo ori, placerat ac euismod in, malesuada vitae arcu. Lorem ipsum dolor sit amet, consectetur. Nunc quis nunc et risus pretium ultrices. Curabitur id neque nec tortor laoreet. Proin consequat nulla id metus varius pharetra. Morbi porttitor, arcudi et congue imperdiet.</p>
+      <?php echo image_tag('coffee-logo.png','width=81,height=110'); ?>
+      <p>La idea de crear un Workshop nace principalmente de la necesidad de motivar a los alumnos del departamento de Ingeniería Civil Informática a desarrollar sus ideas y emprender en nuevos y creativos proyectos, además de crear instancias donde podamos participar y aprender de los conocimientos de alumnos y ex-alumnos en diversos temas relacionados con el manejo de información, hacking ético, videojuegos, seguridad informática, y en general cualquier tema que involucre emprendimiento, innovación y tecnología, como también de aprender sobre sus diversas experiencias en el emprendimiento e investigación.</p>
     </div>
     <!-- End Intro Div -->
     <h3>My Skills</h3>
