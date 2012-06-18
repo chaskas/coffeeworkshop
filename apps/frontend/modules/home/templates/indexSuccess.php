@@ -144,46 +144,24 @@
         <!-- Start Single Blog Post -->
         <div class="single-post clearfix"> 
           <a href="blog-post.html"> 
-            <?php echo image_tag('theme-launch.png','width=235,height=203, alt=Theme Launch'); ?>
+            <?php echo image_tag('ws1.jpg','width=235,height=203, alt=Primer CWs'); ?>
           </a>
-          <h2><a href="blog-post.html">Blog Post Heading</a></h2>
-          <p class="post-info">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
-          <p class="date">12 Apr</p>
-          <p class="post-intro"> Lorem ipsum dolor sit amet, consecte tur 
-            adipiscing elit. Duis ut lacus purus, at 
-            tincidunt nisi. Integer felis arcu, sagit tis 
-            ac fermentum ut, phare nec libero. 
-            Cras pretium tempor tellus, vulputate con
-            gue nulla venen eget phasellus.</p>
-          <p><a href="blog-post.html" class="text-link"><span>Continue reading</span></a></p>
+          <h2>1º Coffee & Workshop</h2>
+          <p class="post-info">Posted By <em>Staff Coffee & Workshop</em></p>
+          <p class="date">18 Jun</p>
+          <p> En el primer Coffee & Workshop contamos con la participación de José Fuentes y Erich Grüttner, a quienes agradecemos su entusiasmo y tiempo dedicado en las 2 charlas.</p>
+          <p>Los videos los pueden ver la sección calendario, además de las fotos, todo gracias al Cainf y a Juan Escalona.</p>
         </div>
         <!-- Start Single Blog Post -->
         <div class="single-post clearfix"> <a href="blog-post.html"> 
-            <?php echo image_tag('case-study.png','width=235,height=203, alt=Theme Launch'); ?>
+            <?php echo image_tag('coffee.png','width=235,height=203, alt=Coffee'); ?>
           </a>
-          <h2><a href="blog-post.html">Blog Post Heading</a></h2>
-          <p class="post-info">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
-          <p class="date">13 Apr</p>
-          <p class="post-intro"> Lorem ipsum dolor sit amet, consecte tur 
-            adipiscing elit. Duis ut lacus purus, at 
-            tincidunt nisi. Integer felis arcu, sagit tis 
-            ac fermentum ut, phare nec libero. 
-            Cras pretium tempor tellus, vulputate con
-            gue nulla venen eget phasellus. </p>
-          <p><a href="blog-post.html" class="text-link"><span>Continue reading</span></a></p>
-        </div>
-        <!-- Start Single Blog Post -->
-        <div class="single-post clearfix"> <a href="blog-post.html"> </a>
-          <h2 class="text"><a href="blog-post.html">Text Only Blog Post Heading</a></h2>
-          <p class="post-info-text">Posted By <em>John Doe</em> in <strong>Articles</strong></p>
-          <p class="date-text">14 Apr</p>
-          <p class="post-intro-text"> Lorem ipsum dolor sit amet, consecte tur 
-            adipiscing elit. Duis ut lacus purus, at 
-            tincidunt nisi. Integer felis arcu, sagit tis 
-            ac fermentum ut, phare nec libero. 
-            Cras pretium tempor tellus, vulputate con
-            gue nulla venen eget phasellus. </p>
-          <p><a href="blog-post.html" class="text-link"><span>Continue reading</span></a></p>
+          <h2>Bienvenidos</h2>
+          <p class="post-info">Posted By <em>Staff Coffee & Workshop</em></p>
+          <p class="date">18 Jun</p>
+          <p>Bienvenido a la página de Coffee & Workshop, un espacio para compartir conocimiento, innovar y emprender. En nuestro sitio encontrarás las próximas fechas en que se realizarán los eventos, como también el registro de los pasados.</p>
+          <p>En este espacio podrás inscribirte como expositor, encontrar noticias relacionadas con innovación y emprendimiento, y por supuesto enviarnos tus consultas, críticas y/o comentarios.</p>
+          <p>Esperamos que disfrutes del sitio.</p>
         </div>
         <!-- End single-post --> 
 
