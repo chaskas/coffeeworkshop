@@ -2,12 +2,6 @@
   $(window).load(function() {
     $('#slider').nivoSlider();
   });
-</script>
-<!-- start scrip colorbox --> 
-<link rel="stylesheet" href="colorbox.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="../colorbox/jquery.colorbox.js"></script>
-<script>
   $(document).ready(function(){
     //Examples of how to assign the ColorBox event to elements
     $(".group").colorbox({rel:'group', transition:"none", width:"85%", height:"85%"});
@@ -138,30 +132,31 @@
             <h2>Investigación o Emprendimiento</h2>
             <p>Coffee &amp; Workshop te invita a conocer dos experiencias que muchas veces se contraponen, y es necesario elegir entre una u otra, la investigación y el emprendimiento.</p>
             <p>El primer expositor será José Fuentes, alumno de Doctorado del Departamento, quién nos contará sobre su experiencia estudiando tanto en el magíster como en el doctorado de Ciencias de la Computación en la Universidad de Concepción, sus proyectos concretados y los fallidos, dificultades que se han presentando en el transcurso de sus estudios, y cuáles han sido los pro y sus contra en su decisión de dedicarse al área de investigación.</p>
-            <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa Tutinova ( <a href="http://www.tutinova.com/">Tutinova</a> ), que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
+            <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa ( <a href="http://www.tutinova.com/">Tutinova</a> ), que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
            
             <!-- start colorbox --> 
-            <a class="group" href="/content/ws1/IMG_2440.jpg" >Fotos</a>
-            <a class="group" href="/content/ws1/IMG_2441.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2442.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2443.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2447.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2449.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2450.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2451.jpg" ></a>
-            <a class="group" href="/content/ws1/IMG_2455.jpg" ></a>
-            <a class="group" href="/content/ws1/1.jpg" ></a>
-            <a class="group" href="/content/ws1/2.jpg" ></a>
-            <a class="group" href="/content/ws1/3.jpg" ></a>
-            <a class="group" href="/content/ws1/4.jpg" ></a>
-            <a class="group" href="/content/ws1/5.jpg" ></a>
-            <a class="group" href="/content/ws1/6.jpg" ></a>
-            <a class="group" href="/content/ws1/7.jpg" ></a>
-            <a class="group" href="/content/ws1/8.jpg" ></a>
-            <a class="group" href="/content/ws1/9.jpg" ></a>
-            <a class="group" href="/content/ws1/10.jpg" ></a>
-            <a class='youtube' href="http://www.youtube.com/embed/M9j-bSEPI_0?rel=0&amp;wmode=transparent" title="Coffee &amp; Workshop 1, Parte 1">Video parte 1</a>
-            <a class='youtube' href="http://www.youtube.com/embed/vK58NcT6Jfw?rel=0&amp;wmode=transparent" title="Coffee &amp; Workshop 1, Parte 2">Video parte 2</a>
+            <?php echo link_to('Fotos','/images/fotos/ws1/IMG_2440.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2441.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2442.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2443.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2447.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2449.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2450.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2451.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2455.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/1.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/2.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/3.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/4.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/5.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/6.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/7.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/8.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/9.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/10.jpg',array('class'=>'group','title'=>'')); ?>
+            
+            <?php echo link_to('Video Parte 1','http://www.youtube.com/embed/M9j-bSEPI_0?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 1','class'=>'youtube')); ?>
+            <?php echo link_to('Video Parte 2','http://www.youtube.com/embed/vK58NcT6Jfw?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 2','class'=>'youtube')); ?>
           </div>
           <!-- This contains the hidden content for inline calls -->
           <div style='display:none'>
