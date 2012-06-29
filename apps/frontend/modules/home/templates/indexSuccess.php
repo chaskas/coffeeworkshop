@@ -135,16 +135,7 @@
             <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa <a href="http://www.tutinova.com/">Tutinova</a>, que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
            
             <!-- start colorbox --> 
-            <?php echo link_to('Fotos','/images/fotos/ws1/IMG_2440.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2441.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2442.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2443.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2447.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2449.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2450.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2451.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/IMG_2455.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/1.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to('Fotos','/images/fotos/ws1/1.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/2.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/3.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/4.jpg',array('class'=>'group','title'=>'')); ?>
@@ -178,6 +169,15 @@
             <?php echo link_to(' ','/images/fotos/ws1/32.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/33.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/34.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2440.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2441.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2442.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2443.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2447.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2449.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2450.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2451.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/IMG_2455.jpg',array('class'=>'group','title'=>'')); ?>
 
             <?php echo link_to('Video Parte 1','http://www.youtube.com/embed/M9j-bSEPI_0?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 1','class'=>'youtube')); ?>
             <?php echo link_to('Video Parte 2','http://www.youtube.com/embed/vK58NcT6Jfw?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 2','class'=>'youtube')); ?>
