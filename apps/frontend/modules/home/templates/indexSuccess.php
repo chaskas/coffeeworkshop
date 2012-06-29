@@ -115,15 +115,15 @@
             <ul>
               <li>
                 <h6>José Fuentes</h6>
-                <?php echo image_tag('icons/mail.png'); ?>
-                <?php echo image_tag('icons/facebook.png'); ?>
-                <?php echo image_tag('icons/twitter.png'); ?>
+                <?php echo link_to(image_tag('icons/mail.png'), '/') ?>
+                <?php echo link_to(image_tag('icons/facebook.png'), 'http://www.facebook.com/jfuentess') ?>
+                <?php echo link_to(image_tag('icons/twitter.png'), '/') ?>
               </li>
               <li>
                 <h6>Erich Grüttner</h6>
-                <?php echo image_tag('icons/mail.png'); ?>
-                <?php echo image_tag('icons/facebook.png'); ?>
-                <?php echo image_tag('icons/twitter.png'); ?>
+                <?php echo link_to(image_tag('icons/mail.png'), '/') ?>
+                <?php echo link_to(image_tag('icons/facebook.png'), 'http://www.facebook.com/erichgruttner') ?>
+                <?php echo link_to(image_tag('icons/twitter.png'), '/') ?>
               </li>
             </ul>
           </div>
@@ -132,7 +132,7 @@
             <h2>Investigación o Emprendimiento</h2>
             <p>Coffee &amp; Workshop te invita a conocer dos experiencias que muchas veces se contraponen, y es necesario elegir entre una u otra, la investigación y el emprendimiento.</p>
             <p>El primer expositor será José Fuentes, alumno de Doctorado del Departamento, quién nos contará sobre su experiencia estudiando tanto en el magíster como en el doctorado de Ciencias de la Computación en la Universidad de Concepción, sus proyectos concretados y los fallidos, dificultades que se han presentando en el transcurso de sus estudios, y cuáles han sido los pro y sus contra en su decisión de dedicarse al área de investigación.</p>
-            <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa ( <a href="http://www.tutinova.com/">Tutinova</a> ), que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
+            <p>Para la segunda parte del Workshop contaremos con la participación de Erich Grüttner, ex-alumno y ahora Ingeniero Civil Informático, quien actualmente trabaja como Jefe de Proyectos en la DTI de la UdeC y además en paralelo es director de la empresa <a href="http://www.tutinova.com/">Tutinova</a>, que se dedica al desarrollo de aplicaciones educativas para móviles, quien con su experiencia nos contará sobre a sus emprendimientos, como nació su idea, proceso de desarrollo y cuál es su estado actual.</p> 
            
             <!-- start colorbox --> 
             <?php echo link_to('Fotos','/images/fotos/ws1/IMG_2440.jpg',array('class'=>'group','title'=>'')); ?>
@@ -153,8 +153,32 @@
             <?php echo link_to(' ','/images/fotos/ws1/7.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/8.jpg',array('class'=>'group','title'=>'')); ?>
             <?php echo link_to(' ','/images/fotos/ws1/9.jpg',array('class'=>'group','title'=>'')); ?>
-            <?php echo link_to(' ','/images/fotos/ws1/10.jpg',array('class'=>'group','title'=>'')); ?>
-            
+            <?php echo link_to(' ','/images/fotos/ws1/10.jpg',array('class'=>'group','title'=>'')); ?>            
+            <?php echo link_to(' ','/images/fotos/ws1/11.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/12.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/13.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/14.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/15.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/16.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/17.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/18.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/19.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/20.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/21.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/22.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/23.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/24.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/25.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/26.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/27.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/28.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/29.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/30.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/31.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/32.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/33.jpg',array('class'=>'group','title'=>'')); ?>
+            <?php echo link_to(' ','/images/fotos/ws1/34.jpg',array('class'=>'group','title'=>'')); ?>
+
             <?php echo link_to('Video Parte 1','http://www.youtube.com/embed/M9j-bSEPI_0?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 1','class'=>'youtube')); ?>
             <?php echo link_to('Video Parte 2','http://www.youtube.com/embed/vK58NcT6Jfw?rel=0&amp;wmode=transparent',array('title'=>'Coffee &amp; Workshop, Parte 2','class'=>'youtube')); ?>
           </div>
